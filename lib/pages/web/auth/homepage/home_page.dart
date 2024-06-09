@@ -72,6 +72,15 @@ class WebHomePage extends StatelessWidget {
                 title: "Help",
                 isSelected: drawerProvider.selectedPageIndex ==4,
                 ), 
+
+                MyDrawerMenu(
+                icon: IconsAssets.shop, 
+                onTap: (){
+                  drawerProvider.seletedMenu(5);
+                }, 
+                title: "Refresh",
+                isSelected: drawerProvider.selectedPageIndex ==5,
+                ), 
                 
 
               ],
