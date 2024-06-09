@@ -1,6 +1,8 @@
 # mahalaxmi_shop
 
-A new Flutter project.
+A new E-commerce Project in Flutter.
+
+also include admin dashboard
 
 ## Getting Started
 
