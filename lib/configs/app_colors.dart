@@ -20,6 +20,7 @@ const onPrimaryContainerLableTextColor = Color(0xff8E8E8E);  // main text lable 
 
 const darkPrimaryColor = Color.fromRGBO(255, 87, 34, 1);      // main color of whole app
 const darkSecondryColor = Color(0xff2a203e);
+const darkPrimaryContaainer = Color(0xff212332);
 const darkOnBackground = Color(0xffFFFFFF);
 const darkOnPrimaryContainerColor = Color(0xff8E8E8E);
 

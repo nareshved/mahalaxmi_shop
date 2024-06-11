@@ -70,6 +70,15 @@ var mDarkTheme = ThemeData(
       primaryContainer: darkSecondryColor,
       onPrimaryContainer: darkOnPrimaryContainerColor,
     ),
+
+      drawerTheme: const DrawerThemeData(
+
+        backgroundColor: darkPrimaryContaainer,
+        surfaceTintColor: darkPrimaryContaainer
+      ),
+
+
+
     textTheme: const TextTheme(
       headlineMedium: TextStyle(
         fontFamily: "Poppins",
