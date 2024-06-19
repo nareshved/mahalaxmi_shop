@@ -5,6 +5,9 @@ class IconsAssets {
 
   static String appIcon = "${basePath}app_icon.svg";
 
+  static String appIconLogo = "${basePath}applogo.png";
+
+
   static String bell = "${basePath}bell.svg";
 
   static String bag = "${basePath}bg.svg";

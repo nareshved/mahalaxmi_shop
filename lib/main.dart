@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mahalaxmi_shop/pages/homepage/home_page.dart';
 import 'package:mahalaxmi_shop/providers/drawer_provider.dart';
 
-import 'package:mahalaxmi_shop/views/homepage/home_page_view.dart';
 import 'package:provider/provider.dart';
 
 import 'configs/appt_themes.dart';
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: mlightTheme,
       darkTheme: mDarkTheme,
       themeMode: ThemeMode.dark,
-      home: const HomePageView(),
+      home: const HomePage(),
     );
   }
 }

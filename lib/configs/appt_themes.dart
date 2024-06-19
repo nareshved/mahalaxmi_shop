@@ -7,9 +7,9 @@ var mlightTheme = ThemeData(
 
   colorScheme: const ColorScheme.light(
 
-    background: backgroundColor,
+    surface: backgroundColor,
     primary: primaryColor,
-    onBackground: onBackgroundTextColor,
+    onSurface: onBackgroundTextColor,
     primaryContainer: primaryContainerColor,
     onPrimaryContainer: onPrimaryContainerLableTextColor,
      

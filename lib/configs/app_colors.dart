@@ -13,6 +13,9 @@ const onPrimaryContainerColor = Color(0xff8E8E8E);  // niche or ye same diffrene
 
 const onPrimaryContainerLableTextColor = Color(0xff8E8E8E);  // main text lable color of whole app
 
+// extra
+const onSecondLableTextColor = Color(0xffC10224);  // main text lable color of whole app
+
 
 
 /// dark colors
