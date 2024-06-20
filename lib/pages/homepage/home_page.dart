@@ -32,7 +32,6 @@ class HomePage extends StatelessWidget {
           MyDrawer(),
           ),
 
-
            Expanded( 
             flex: 6,
             child: Column(
@@ -44,8 +43,8 @@ class HomePage extends StatelessWidget {
                   padding: const EdgeInsets.all(10.0),
                   child: Consumer<DrawerProvider>(builder: (context, value, child) => value.pages[value.selectedPageIndex]),
                 ),
-
-
+                
+               
               ],
             ),
             

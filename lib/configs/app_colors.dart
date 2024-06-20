@@ -29,3 +29,7 @@ const darkOnPrimaryContainerColor = Color(0xff8E8E8E);
 
 
 const darkBgColor = Color(0xff212332);
+
+
+// testing a container color
+// const darkSecondryColor = Color(0xff2a203e);

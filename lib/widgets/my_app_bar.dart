@@ -38,7 +38,7 @@ class MyAppBar extends StatelessWidget {
             child: TextFormField(
               decoration: InputDecoration(
                 hintText: "Search here...",
-                fillColor: Theme.of(context).colorScheme.background,
+                fillColor: Theme.of(context).colorScheme.surface,
                 filled: true,
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),

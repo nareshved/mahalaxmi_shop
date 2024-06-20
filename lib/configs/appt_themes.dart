@@ -68,6 +68,7 @@ var mDarkTheme = ThemeData(
       primary: darkPrimaryColor,
       onBackground: darkOnBackground,
       primaryContainer: darkSecondryColor,
+      
       onPrimaryContainer: darkOnPrimaryContainerColor,
     ),
 

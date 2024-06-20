@@ -19,14 +19,14 @@ class MyDrawerMenu extends StatelessWidget {
     return ListTile(
       onTap: onTap,
                 leading: SvgPicture.asset(icon,  width: 20,
-                color: isSelected ? Theme.of(context).colorScheme.onBackground
+                color: isSelected ? Theme.of(context).colorScheme.onSurface
                 : Theme.of(context).colorScheme.onPrimaryContainer
                 ),
                 
                 
                 title: Text(title, style: Theme.of(context).textTheme.bodyMedium?.copyWith(
 
-                  color: isSelected ? Theme.of(context).colorScheme.onBackground
+                  color: isSelected ? Theme.of(context).colorScheme.onSurface
                 : Theme.of(context).colorScheme.onPrimaryContainer
                 )
                
