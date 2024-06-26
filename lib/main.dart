@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mahalaxmi_shop/pages/homepage/home_page.dart';
+import 'package:mahalaxmi_shop/configs/page_routes.dart';
+
 import 'package:mahalaxmi_shop/providers/drawer_provider.dart';
 
 import 'package:provider/provider.dart';
@@ -24,13 +25,13 @@ class MyApp extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'Mahalaxmi Shop',
       theme: mlightTheme,
       darkTheme: mDarkTheme,
       themeMode: ThemeMode.dark,
-      home: const HomePage(),
+      routerConfig: router,   // homepage for go router package
     );
   }
 }

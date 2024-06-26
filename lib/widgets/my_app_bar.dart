@@ -78,7 +78,7 @@ class MyAppBar extends StatelessWidget {
                     child: Text(
                       "N",
                       style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                            color: Theme.of(context).colorScheme.onBackground,
+                            color: Theme.of(context).colorScheme.onSurface,
                           ),
                     ),
                   ),

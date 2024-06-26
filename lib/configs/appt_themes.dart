@@ -64,10 +64,11 @@ var mlightTheme = ThemeData(
 var mDarkTheme = ThemeData(
     brightness: Brightness.dark,
     colorScheme: const ColorScheme.dark(
-      background: darkBgColor,
+      surface: darkBgColor,
       primary: darkPrimaryColor,
-      onBackground: darkOnBackground,
-      primaryContainer: darkSecondryColor,
+      onSurface: darkOnBackground,
+      primaryContainer: darkPrimaryContaainer,
+     // primaryContainer: darkSecondryColor,
       
       onPrimaryContainer: darkOnPrimaryContainerColor,
     ),
@@ -78,6 +79,19 @@ var mDarkTheme = ThemeData(
         surfaceTintColor: darkPrimaryContaainer
       ),
 
+
+   // text field theme
+      inputDecorationTheme: const InputDecorationTheme(
+        fillColor: darkBgColor,
+        border: InputBorder.none,
+        filled: true,
+        hintStyle: TextStyle(
+        fontSize: 15,
+          fontFamily: "Poppins",
+          fontWeight: FontWeight.w400,
+          color: darkOnPrimaryContainerColor,
+        ),
+      ),
 
 
     textTheme: const TextTheme(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mahalaxmi_shop/configs/asset_path.dart';
+import 'package:mahalaxmi_shop/pages/dashboard/widgets/order_history.dart';
 import 'package:mahalaxmi_shop/pages/dashboard/widgets/statics.dart';
 
 class DashBoard extends StatelessWidget {
@@ -54,7 +55,7 @@ class DashBoard extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 30),
-
+    
         // start homepage table UI
         Row(
           children: statics.map((e) => 
@@ -62,6 +63,8 @@ class DashBoard extends StatelessWidget {
             child: HomeStatics(lable: e["lable"]!, value: e["value"]!, icon: e["icon"]!)),
           ).toList()
         ),
+         const SizedBox(height: 30),
+         const OrderHistory(),
       ],
     );
   }
